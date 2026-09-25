@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Large Datasets (Fetch via 'python main.py --fetch' or 'python main.py --mock-data')
+data/raw/*
+!data/raw/.gitkeep
+data/occluded/*
+!data/occluded/.gitkeep
+
+# Large model task binaries (auto-downloaded at runtime by feature_extractor.py)
+*.task
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
